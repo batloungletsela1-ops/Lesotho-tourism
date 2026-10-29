@@ -1,0 +1,317 @@
+nav {
+    background-color: white;
+    width: fit-content;
+    padding: 10px 22px;
+    text-align: center;
+    border-radius: 30px;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2));
+
+
+
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin-right: o 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: greenyellow;
+}
+
+h1 {
+    color: white !important;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 48px;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.Home {
+    background-image: url(images/pic.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 20px;
+    border-bottom: 20px;
+    width: 85%;
+    text-align: center;
+    max-width: 650px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 15px;
+    font-size: 13px;
+}
+
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+    text-align: left;
+}
+
+.send-title {
+    margin-top: 15px;
+}
+
+.container input,
+.container textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.container button {
+    background: none;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background: #333;
+}
+
+#formMessage {
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+body.Home {
+    margin: 0;
+    font-family: Arial;
+    background: url(images/pic.jpg) center/cover fixed;
+    min-height: 100vh
+}
+
+header {
+    text-align: center;
+    padding: 20px
+}
+
+header nav {
+    background: white;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .2)
+}
+
+header nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 8px;
+    font-weight: bold
+}
+
+header h1 {
+    color: white;
+    text-shadow: none;
+    margin-top: 15px
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1100px;
+    margin: auto
+}
+
+.gallery>div {
+    background: white;
+    padding: 15px;
+    border-radius: 18px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .2)
+}
+
+.gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+    cursor: pointer
+}
+
+#lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .85);
+    justify-content: center;
+    align-items: center;
+    z-index: 999
+}
+
+#lightbox img {
+    max-width: 90%;
+    max-height: 85%;
+    border-radius: 12px
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    text-shadow: none;
+}
+
+
+.page-title {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.nav-links a {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.info-card,
+.form-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.submit-btn {
+    background: black;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background: #333;
+}
+
+#msg {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.site-footer {
+    background: #212529;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.site-footer p {
+    margin: 0;
+}
+
+.contact-bg {
+    background-image: url(images/pic.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body.Home {
+    background-image: url(images/pic.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    background: none;
+    padding: 10px;
+}
+
+.navbar {
+    background: #212529;
+}
+
+.content-card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background: none;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-top: 30px;
+}
+
+
+.about-page {
+    background-image: url(images/pic.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.page-heading {
+    text-align: center;
+    color: white;
+    background: none;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.content-card {
+    background: rgba(255, 255, 255, 0.92);
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    height: 100%;
+}
+
+.site-footer {
+    background: none;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-top: 30px;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Gallery</title>
+</head>
+
+<body class="Home">
+    <header>
+
+        <nav>
+
+
+
+            <a href="index.html">Home</a>|
+            <a href="about.html">About</a>|
+            <a href="services.html">Services</a>|
+            <a href="gallery.html">Gallery</a>|
+            <a href="contact.html">Contacts</a>|
+        </nav>
+        <h1>Attraction Places</h1>
+    </header>
+
+    <main>
+        <div class="gallery">
+
+            <div>
+                <img src="images/maletsunyane.jpg" alt="Maletsunyane Falls" onclick="openLightbox(this.src)">
+                <h2>Maletsunyane Falls</h2>
+                <p>The highest water fall in lesotho with the height of 192m, located in Semonkong Maseru
+                    District. It
+                    is special because it has mist and rainbow always. There are tourist activities like hiking,
+                    camping, pony riding and village tours.</p>
+            </div>
+
+            <div>
+                <img src="images/thaba-busiu.jpg" alt="Thaba Bosiu" onclick="openLightbox(this.src)">
+                <h3>Thaba-Bosiu</h3>
+                <p>Thaba-Bosiu "mountain at Night" in Sesotho. It is a flat topped mountain (1804m high) located
+                    24km
+                    east of Maseru. It was the fortress and capital of King Moshoeshoe 1, the founder of Basotho
+                    nation
+                    in 1824. The mountain is easy to defend - it has 8 springs and steep cliffs. Today it is
+                    Lesotho's
+                    most important historic monument and burial place of Basotho kings. Visitors can see ruins
+                    of the
+                    old villages, royal graves, and a small museum</p>
+            </div>
+
+            <div>
+                <img src="images/katse.jpg" alt="Katse Dam" onclick="openLightbox(this.src)">
+                <h3>Katse Dam</h3>
+                <p>Katse dam is in Leribe District, in the malibamatso river. It is 185m high and was built in
+                    1996. It
+                    is part of the Lesotho Highlands water to South Africa. It is also the second largest dam in
+                    Africa
+                    by volume and creates a huge lake (35km long). There are boats to ride, fishing, and also
+                    dam tours
+                    inside the dam</p>
+            </div>
+
+            <div>
+                <img src="images/Kome.jpg" alt="Kome Caves" onclick="openLightbox(this.src)">
+                <h3>Kome Cave Dwellings</h3>
+                <p>It is located in Berea District, 30km east of Teyateyaneng. They were built in the early 19th
+                    century
+                    (around 1820) by the Bataung and Basia tribes who hid in the caves to escape wars and
+                    cannibalism
+                    during lifaqane War. People still live there even today. It is a National heritage site.
+                    Visitors
+                    can see original huts, rock painting, and meet descendants of the first families.</p>
+            </div>
+
+            <div>
+                <img src="images/thabana.jpg" alt="Thabana Ntlenyana" onclick="openLightbox(this.src)">
+                <h3>Thabana Ntlenyana</h3>
+                <p>It is the highest peak in Lesotho and also in the Southen Africa. It is located in the Maloti
+                    Mountains, near Sani Pass on the border with South Africa. The area has snow in winter and
+                    it is
+                    very cold. Tourists can take pictures, go hiking, climbing, and also camping.</p>
+            </div>
+
+            <div>
+                <img src="images/sehlabathebe.jpg" alt="Sehlabathebe National Park" onclick="openLightbox(this.src)">
+                <h3>Sehlabathebe National Park</h3>
+                <p>Lesotho's first National Park made in 1969 located in Qacha's Nek. UNESCO site with rock
+                    towers, san
+                    rock paintings, and rare wildflowers. Good for hiking and camping.</p>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Lesotho Tourism. All rights reserved.</p>
+    </footer>
+
+    <div id="lightbox" onclick="closeLightbox()">
+        <img id="lightbox-img" src="" alt="preview">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
